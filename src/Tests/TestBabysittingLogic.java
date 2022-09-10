@@ -30,6 +30,12 @@ public class TestBabysittingLogic {
 		assertEquals(48, dailyRate, 0.0);
 	}
 	
-	
+	@Test
+	public void testCalculateRateChange() {
+		babyEmp.setRate(15.00);
+		babyCust.setNumberOfKids(3);
+		double kidsRate = babySch.calculateRateChange(babyEmp, babyCust);
+		assertEquals(45, kidsRate, 0.0);
+	}
 
 }

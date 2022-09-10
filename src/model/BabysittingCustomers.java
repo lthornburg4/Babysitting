@@ -14,8 +14,9 @@ public class BabysittingCustomers {
 		
 	}
 	
-	public BabysittingCustomers(int hoursNeed) {
+	public BabysittingCustomers(int hoursNeed, int numKids) {
 		setHoursNeeded(hoursNeed);
+		setNumberOfKids(numKids);
 	}
 	
 	public BabysittingCustomers(String cname, int hoursNeed, int nkids) {

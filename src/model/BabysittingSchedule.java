@@ -15,4 +15,9 @@ public class BabysittingSchedule {
 		return dailyRate;
 	}
 	
+	public double calculateRateChange(BabysittingEmployees rate, BabysittingCustomers numberOfKids) {
+		double kidsRate = 0;
+		kidsRate = rate.getRate() * numberOfKids.getNumberOfKids();
+		return kidsRate;
+	}
 }
