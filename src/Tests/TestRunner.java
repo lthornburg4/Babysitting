@@ -7,7 +7,7 @@ import org.junit.runner.notification.Failure;
 /**
  * @author lthor - lthornburg1
  * CIS175 - Fall 2022
- * Sept 8, 2022
+ * Sep 8, 2022
  */
 public class TestRunner {
 	public static void main (String[] args) {
