@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * @author lthor - lthornburg1
  * CIS175 - Spring 2023
- * Jan 23, 2023
+ * January 23, 2023
  */
 public class TestBabysittingLogic {
 	BabysittingEmployees babyEmp = new BabysittingEmployees();
