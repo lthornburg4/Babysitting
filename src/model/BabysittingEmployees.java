@@ -2,8 +2,8 @@ package model;
 
 /**
  * @author lthor - lthornburg1
- * CIS175 - Fall 2022
- * Sept 8, 2022
+ * CIS175 - Spring 2023
+ * January 23, 2023
  */
 public class BabysittingEmployees {
 	private String babysitterName;
